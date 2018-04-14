@@ -9,7 +9,7 @@ function connect(){
     /* Подключение к базе данных MySQL с помощью вызова драйвера */
     $dsn = 'mysql:dbname=centurio;host=127.0.0.1';
     $user = 'root';
-    $password = '';
+    $password = 'root';
 
     try {
         $DB = new PDO($dsn, $user, $password,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));

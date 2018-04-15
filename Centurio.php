@@ -104,8 +104,16 @@ class Centurio
     {
 
 
-        return ($DB->query("SELECT COUNT(*) FROM sku INNER JOIN map ON sku.id = map.position_id AND map.site_id = $siteId AND sku.brand_id = $brandId", PDO::FETCH_ASSOC)->fetchAll())[0]['COUNT(*)'];
+        $range = ($DB->query("SELECT COUNT(*) FROM sku INNER JOIN map ON sku.id = map.position_id AND map.site_id = $siteId AND sku.brand_id = $brandId", PDO::FETCH_ASSOC)->fetchAll())[0]['COUNT(*)'];
 
+        if(!$range){
+           $rs = $DB->query("SELECT EXISTS(SELECT * FROM out_assortment WHERE site_id = $siteId AND brand_id = $brandId)")->fetch()[0];
+          if($rs){
+              return "<span style=\"color: orangered\">НЕТ В АССОРТИМЕНТЕ</span>";
+          }
+        }else{
+            return $range;
+        }
     }
 
     function getAllBrandsPositionBySiteId($DB)
@@ -122,7 +130,8 @@ class Centurio
         $arr =  ($DB->query("SELECT * FROM results LEFT JOIN sites ON results.site_id = sites.id JOIN sku ON results.pos_id = sku.id JOIN brands ON sku.brand_id = brands.id WHERE sites.id = $siteId and brands.id = $brandId", PDO::FETCH_ASSOC)->fetchAll());
         $cnt = count($arr);
         if(!$cnt){
-            return 'Нет в ассртименте';
+
+            return 'Непроверено';
 
         }else{
             $summ = 0;
@@ -136,6 +145,13 @@ class Centurio
 
             echo ' '.$brandName.' -'.(100 - round($generalResult,3)*100).'%';
         }
+
+    }
+
+    function addSiteBrandException($site_id,$brandId,$DB){
+
+        $sql = "INSERT INTO `out_assortment` (`site_id`, `brand_id`) VALUES ($site_id,$brandId)";
+        $DB->exec($sql);
 
     }
 

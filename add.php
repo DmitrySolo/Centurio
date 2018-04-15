@@ -14,9 +14,6 @@ if (!isset($_REQUEST['add'])) {
     $BrandsArr = $Centurio->getBrands(false, $DB);
     $SitesArr = $Centurio->getSites($DB);
 
-    foreach ($BrandsArr as $brand) {
-        echo $brand['id'];
-    }
     ?>
 
 
@@ -40,7 +37,7 @@ if (!isset($_REQUEST['add'])) {
         .col{
             vertical-align:middle;
             height:60px;
-            width: 25%;
+            width: 22%;
             display: inline-block;
 
         }
@@ -109,11 +106,12 @@ if (!isset($_REQUEST['add'])) {
                             <li class="col">
                                 <?php if(isset($_GET['b'])):?>
                                      <label>Всего этого брэнда:
-                                    <span><?php echo $Centurio->countAllBrandsPositionBySiteId($_GET['b'], $site['id'], $DB) ?></span>
+                                    <span><?php echo ($range = $Centurio->countAllBrandsPositionBySiteId($_GET['b'], $site['id'], $DB)) ?></span>
                                 </label>
                                 <?php endif;?>
 
                             </li>
+
                             <li class="col">
                                 <label>Путь к позиции
                                     <input class="link" name="<?php echo $site["id"] . '_' ?>map" type="text"
@@ -121,6 +119,13 @@ if (!isset($_REQUEST['add'])) {
                                 </label>
                                 <input class="siteId" type="hidden" name="siteId" value="<?php echo $site['id'] ?>"/>
                             </li>
+                            <li class="col">
+                                <label > Нет в ассортименте
+                                    <input name="assortment" type="checkbox" class="assrt"
+                                           value="2"/>
+                                </label>
+                            </li>
+
                         </ul>
 
                     <?php endforeach; ?>
@@ -149,7 +154,7 @@ if (!isset($_REQUEST['add'])) {
             }
 
            for(var i = 0; i< data.length; i++){
-               if(data[i].value=='' && data[i].type != 'hidden'){
+               if(data[i].value=='' && data[i].type != 'hidden'  && data[i].type != 'checkbox'){
                    data[i].style.borderColor='red';
                    scroll(0,0)
                    return false;
@@ -167,12 +172,18 @@ if (!isset($_REQUEST['add'])) {
             var siteIds = document.getElementsByClassName('siteId');
             var links = document.getElementsByClassName('link');
             var resBox = document.getElementById('result');
+            var assrt = document.getElementsByClassName('assrt');
 
             for (var i = 0; i < siteIds.length; i++) {
 
                 if (links[i].value != "Пропустить") {
 
+
                     res.resArr.push(JSON.stringify({id: siteIds[i].value, link: links[i].value}));
+                }else {
+                    if(assrt[i].checked){
+                        res.resArr.push(JSON.stringify({id: siteIds[i].value,link:0}));
+                    }
                 }
 
             }
@@ -188,7 +199,7 @@ if (!isset($_REQUEST['add'])) {
 
 <?php } else {
     echo '<pre> Происходит загрузка данных... <br>';
-
+    echo $_GET['assortment'];
     if (!isset($_SESSION['last_key'])) {
         $_SESSION['last_key'] = 0;
     }
@@ -230,15 +241,24 @@ if (!isset($_REQUEST['add'])) {
             $siteId = $line['id'];
             $positionId = $lastSku;
             $way = $line['link'];
-            if (mb_substr($line['link'], 0, 1, 'UTF-8') != '/') {
-                $way = '/' . $way;
+            echo $way;
+            if($way==0){
+
+               $Centurio->addSiteBrandException($siteId,$brand,$DB);
+
+            }else{
+                if (mb_substr($line['link'], 0, 1, 'UTF-8') != '/') {
+                    $way = '/' . $way;
+                }
+                $stmt->execute();
             }
-            $stmt->execute();
+
 
 
         }
             echo "[Успех] загрузка данных завершена, молодец, Тащи еще !!!";
             echo "<a href='/centurio/add.php'>Ок, я смогу еще раз</a>";
+            echo "<img src='img/zbs).jpg'>";
     } else {
         echo '[ОШИБКА]- Данных не поступило';
     }

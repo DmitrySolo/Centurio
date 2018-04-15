@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25066974-0935-465f-af77-d047763ec9cc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/results.php" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/zbs).jpg" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e1a219b-c694-4fd1-8c56-e6f665e4c44f.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/2e1a219b-c694-4fd1-8c56-e6f665e4c44f.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Centurio.php" afterPath="$PROJECT_DIR$/Centurio.php" />
+      <change beforePath="$PROJECT_DIR$/add.php" afterPath="$PROJECT_DIR$/add.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,6 +69,13 @@
         <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="centurio: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="out_assortment: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="centurio: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="results: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
@@ -87,6 +97,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="cities" pinned="false" current-in-tab="false">
+        <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.cities">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,20 +125,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sites" pinned="false" current-in-tab="false">
-        <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sites">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sku" pinned="false" current-in-tab="false">
-        <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sku">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="Centurio.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Centurio.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1802">
+              <caret line="111" column="52" lean-forward="false" selection-start-line="111" selection-start-column="52" selection-end-line="111" selection-end-column="52" />
+              <folding>
+                <marker date="1523794906182" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
+                <marker date="1523794906182" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
+                <marker date="1523794906182" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
+                <marker date="1523794906182" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
+                <marker date="1523794906182" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
+                <marker date="1523794906182" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
+                <marker date="1523794906182" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
+                <marker date="1523794906182" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
+                <marker date="1523794906182" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
+                <marker date="1523794906182" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
+                <marker date="1523794906182" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
+                <marker date="1523794906182" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
+                <marker date="1523794906182" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
+                <marker date="1523794906182" expanded="true" signature="2942:2958" ph="..." />
+                <marker date="1523794906182" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
+                <marker date="1523794906182" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
+                <marker date="1523794906182" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
+                <marker date="1523794906182" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
+                <marker date="1523794906182" expanded="true" signature="4104:4183" ph="INSERT INTO `results`... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,60 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="98" column="25" lean-forward="false" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
-              <folding>
-                <marker date="1523635324978" expanded="true" signature="333:1251" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="343:376" ph="/*...*/" />
-                <marker date="1523635324978" expanded="true" signature="755:833" ph="{...}" />
-                <marker date="1523635324978" expanded="true" signature="863:902" ph="{...}" />
-                <marker date="1523635324978" expanded="true" signature="952:1104" ph="{...}" />
-                <marker date="1523635324978" expanded="true" signature="1160:1239" ph="{...}" />
-                <marker date="1523635324978" expanded="true" signature="1350:1849" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="1391:1849" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="1471:1849" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="1577:1849" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="1602:1849" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="1631:1849" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="1667:1849" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="1752:1849" ph="..." />
-                <marker date="1523635324978" expanded="false" signature="2494:2673" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="2530:2643" ph="..." />
-                <marker date="1523635324978" expanded="false" signature="2702:2888" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="2738:2858" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="2973:3201" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="3093:3201" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="3138:3201" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="3392:3744" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="3822:3962" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="3822:3964" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="3862:3962" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="4549:4642" ph="..." />
-                <marker date="1523635324978" expanded="true" signature="6914:7002" ph="INSERT INTO SKU... " />
-                <marker date="1523635324978" expanded="true" signature="7247:7324" ph="INSERT INTO MAP... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="brands" pinned="false" current-in-tab="false">
         <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.brands">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="results_id_uindex" pinned="false" current-in-tab="false">
-        <entry file="das://index:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results.results_id_uindex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -201,12 +183,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="results.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="results.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding>
+                <marker date="1523794942245" expanded="true" signature="7490:7578" ph="INSERT INTO SKU... " />
+                <marker date="1523794942245" expanded="true" signature="7823:7900" ph="INSERT INTO MAP... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="out_assortment" pinned="false" current-in-tab="false">
+        <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.out_assortment">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -218,6 +222,7 @@
       <find>find</find>
       <find>last</find>
       <find>title</find>
+      <find>нет</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -229,12 +234,12 @@
         <option value="$PROJECT_DIR$/libs/simple_html_dom.php" />
         <option value="$PROJECT_DIR$/options.php" />
         <option value="$PROJECT_DIR$/head.php" />
-        <option value="$PROJECT_DIR$/Centurio.php" />
         <option value="$PROJECT_DIR$/crafting.php" />
-        <option value="$PROJECT_DIR$/add.php" />
         <option value="$PROJECT_DIR$/DB.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/results.php" />
+        <option value="$PROJECT_DIR$/Centurio.php" />
+        <option value="$PROJECT_DIR$/add.php" />
       </list>
     </option>
   </component>
@@ -246,7 +251,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="113" />
+    <option name="x" value="95" />
+    <option name="y" value="175" />
     <option name="width" value="1775" />
     <option name="height" value="770" />
   </component>
@@ -288,6 +294,9 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp2\htdocs\Centurio\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp2\htdocs\Centurio" />
       <recent name="C:\xampp2\htdocs\Centurio\libs" />
@@ -322,22 +331,22 @@
       <workItem from="1522587057706" duration="13000" />
       <workItem from="1522662650778" duration="14267000" />
       <workItem from="1522748559349" duration="36087000" />
-      <workItem from="1523366455247" duration="48983000" />
+      <workItem from="1523366455247" duration="57153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101907000" />
+    <option name="totallyTimeSpent" value="110077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17004265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1696793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16684435" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16684435" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -352,26 +361,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17004265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16684435" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -386,20 +375,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sites">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.map">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -427,23 +402,25 @@
         <state relative-caret-position="1156">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <marker date="1523613472280" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
-            <marker date="1523613472280" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1957:2010" ph="INSERT INTO `sites`... " />
-            <marker date="1523613472280" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
-            <marker date="1523613472280" expanded="true" signature="1957:2070" ph="INSERT INTO `sites`... " />
-            <marker date="1523613472280" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
-            <marker date="1523613472280" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
-            <marker date="1523613472280" expanded="true" signature="2556:2669" ph="SELECT COUNT... sku" />
-            <marker date="1523613472280" expanded="true" signature="2818:2898" ph="SELECT * FRO... sku" />
-            <marker date="1523613472280" expanded="true" signature="3027:3170" ph="SELECT * FRO... sku" />
-            <marker date="1523613472280" expanded="true" signature="3027:3212" ph="SELECT * FRO... results" />
-            <marker date="1523613472280" expanded="true" signature="3027:3213" ph="SELECT * FRO... results" />
-            <marker date="1523613472280" expanded="true" signature="3027:3253" ph="SELECT * FRO... results" />
+            <marker date="1523794906182" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
+            <marker date="1523794906182" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
+            <marker date="1523794906182" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
+            <marker date="1523794906182" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
+            <marker date="1523794906182" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
+            <marker date="1523794906182" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
+            <marker date="1523794906182" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
+            <marker date="1523794906182" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
+            <marker date="1523794906182" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
+            <marker date="1523794906182" expanded="true" signature="2942:2958" ph="..." />
+            <marker date="1523794906182" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
+            <marker date="1523794906182" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
+            <marker date="1523794906182" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
+            <marker date="1523794906182" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
+            <marker date="1523794906182" expanded="true" signature="4104:4183" ph="INSERT INTO `results`... " />
           </folding>
         </state>
       </provider>
@@ -468,34 +445,8 @@
         <state relative-caret-position="1309">
           <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
           <folding>
-            <marker date="1523635324978" expanded="true" signature="333:1251" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="343:376" ph="/*...*/" />
-            <marker date="1523635324978" expanded="true" signature="755:833" ph="{...}" />
-            <marker date="1523635324978" expanded="true" signature="863:902" ph="{...}" />
-            <marker date="1523635324978" expanded="true" signature="952:1104" ph="{...}" />
-            <marker date="1523635324978" expanded="true" signature="1160:1239" ph="{...}" />
-            <marker date="1523635324978" expanded="true" signature="1350:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1391:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1471:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1577:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1602:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1631:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1667:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1752:1849" ph="..." />
-            <marker date="1523635324978" expanded="false" signature="2494:2673" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="2530:2643" ph="..." />
-            <marker date="1523635324978" expanded="false" signature="2702:2888" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="2738:2858" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="2973:3201" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3093:3201" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3138:3201" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3392:3744" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3822:3962" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3822:3964" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3862:3962" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="4549:4642" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="6914:7002" ph="INSERT INTO SKU... " />
-            <marker date="1523635324978" expanded="true" signature="7247:7324" ph="INSERT INTO MAP... " />
+            <marker date="1523794942245" expanded="true" signature="7490:7578" ph="INSERT INTO SKU... " />
+            <marker date="1523794942245" expanded="true" signature="7823:7900" ph="INSERT INTO MAP... " />
           </folding>
         </state>
       </provider>
@@ -564,23 +515,25 @@
         <state relative-caret-position="102">
           <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <marker date="1523613472280" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
-            <marker date="1523613472280" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1957:2010" ph="INSERT INTO `sites`... " />
-            <marker date="1523613472280" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
-            <marker date="1523613472280" expanded="true" signature="1957:2070" ph="INSERT INTO `sites`... " />
-            <marker date="1523613472280" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
-            <marker date="1523613472280" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
-            <marker date="1523613472280" expanded="true" signature="2556:2669" ph="SELECT COUNT... sku" />
-            <marker date="1523613472280" expanded="true" signature="2818:2898" ph="SELECT * FRO... sku" />
-            <marker date="1523613472280" expanded="true" signature="3027:3170" ph="SELECT * FRO... sku" />
-            <marker date="1523613472280" expanded="true" signature="3027:3212" ph="SELECT * FRO... results" />
-            <marker date="1523613472280" expanded="true" signature="3027:3213" ph="SELECT * FRO... results" />
-            <marker date="1523613472280" expanded="true" signature="3027:3253" ph="SELECT * FRO... results" />
+            <marker date="1523794906182" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
+            <marker date="1523794906182" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
+            <marker date="1523794906182" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
+            <marker date="1523794906182" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
+            <marker date="1523794906182" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
+            <marker date="1523794906182" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
+            <marker date="1523794906182" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
+            <marker date="1523794906182" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
+            <marker date="1523794906182" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
+            <marker date="1523794906182" expanded="true" signature="2942:2958" ph="..." />
+            <marker date="1523794906182" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
+            <marker date="1523794906182" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
+            <marker date="1523794906182" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
+            <marker date="1523794906182" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
+            <marker date="1523794906182" expanded="true" signature="4104:4183" ph="INSERT INTO `results`... " />
           </folding>
         </state>
       </provider>
@@ -728,39 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.cities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Centurio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="128" column="43" lean-forward="false" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="43" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-            <marker date="1523613472280" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
-            <marker date="1523613472280" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
-            <marker date="1523613472280" expanded="true" signature="1957:2010" ph="INSERT INTO `sites`... " />
-            <marker date="1523613472280" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
-            <marker date="1523613472280" expanded="true" signature="1957:2070" ph="INSERT INTO `sites`... " />
-            <marker date="1523613472280" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
-            <marker date="1523613472280" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
-            <marker date="1523613472280" expanded="true" signature="2556:2669" ph="SELECT COUNT... sku" />
-            <marker date="1523613472280" expanded="true" signature="2818:2898" ph="SELECT * FRO... sku" />
-            <marker date="1523613472280" expanded="true" signature="3027:3170" ph="SELECT * FRO... sku" />
-            <marker date="1523613472280" expanded="true" signature="3027:3212" ph="SELECT * FRO... results" />
-            <marker date="1523613472280" expanded="true" signature="3027:3213" ph="SELECT * FRO... results" />
-            <marker date="1523613472280" expanded="true" signature="3027:3253" ph="SELECT * FRO... results" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crafting.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -787,64 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.map">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.brands">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="98" column="25" lean-forward="false" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
-          <folding>
-            <marker date="1523635324978" expanded="true" signature="333:1251" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="343:376" ph="/*...*/" />
-            <marker date="1523635324978" expanded="true" signature="755:833" ph="{...}" />
-            <marker date="1523635324978" expanded="true" signature="863:902" ph="{...}" />
-            <marker date="1523635324978" expanded="true" signature="952:1104" ph="{...}" />
-            <marker date="1523635324978" expanded="true" signature="1160:1239" ph="{...}" />
-            <marker date="1523635324978" expanded="true" signature="1350:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1391:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1471:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1577:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1602:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1631:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1667:1849" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="1752:1849" ph="..." />
-            <marker date="1523635324978" expanded="false" signature="2494:2673" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="2530:2643" ph="..." />
-            <marker date="1523635324978" expanded="false" signature="2702:2888" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="2738:2858" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="2973:3201" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3093:3201" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3138:3201" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3392:3744" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3822:3962" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3822:3964" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="3862:3962" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="4549:4642" ph="..." />
-            <marker date="1523635324978" expanded="true" signature="6914:7002" ph="INSERT INTO SKU... " />
-            <marker date="1523635324978" expanded="true" signature="7247:7324" ph="INSERT INTO MAP... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sku">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -859,14 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -875,11 +729,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.cities">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.brands">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.out_stock">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.map">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.out_assortment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Centurio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="111" column="52" lean-forward="false" selection-start-line="111" selection-start-column="52" selection-end-line="111" selection-end-column="52" />
+          <folding>
+            <marker date="1523794906182" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
+            <marker date="1523794906182" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
+            <marker date="1523794906182" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
+            <marker date="1523794906182" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
+            <marker date="1523794906182" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
+            <marker date="1523794906182" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
+            <marker date="1523794906182" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
+            <marker date="1523794906182" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
+            <marker date="1523794906182" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
+            <marker date="1523794906182" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
+            <marker date="1523794906182" expanded="true" signature="2942:2958" ph="..." />
+            <marker date="1523794906182" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
+            <marker date="1523794906182" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
+            <marker date="1523794906182" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
+            <marker date="1523794906182" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
+            <marker date="1523794906182" expanded="true" signature="4104:4183" ph="INSERT INTO `results`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <marker date="1523794942245" expanded="true" signature="7490:7578" ph="INSERT INTO SKU... " />
+            <marker date="1523794942245" expanded="true" signature="7823:7900" ph="INSERT INTO MAP... " />
+          </folding>
         </state>
       </provider>
     </entry>

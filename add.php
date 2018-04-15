@@ -182,7 +182,7 @@ if (!isset($_REQUEST['add'])) {
                     res.resArr.push(JSON.stringify({id: siteIds[i].value, link: links[i].value}));
                 }else {
                     if(assrt[i].checked){
-                        res.resArr.push(JSON.stringify({id: siteIds[i].value,link:0}));
+                        res.resArr.push(JSON.stringify({id: siteIds[i].value,link:''}));
                     }
                 }
 
@@ -242,15 +242,15 @@ if (!isset($_REQUEST['add'])) {
             $positionId = $lastSku;
             $way = $line['link'];
             echo $way;
-            if($way==0){
-
-               $Centurio->addSiteBrandException($siteId,$brand,$DB);
-
-            }else{
+            if($way){
                 if (mb_substr($line['link'], 0, 1, 'UTF-8') != '/') {
                     $way = '/' . $way;
                 }
                 $stmt->execute();
+
+
+            }else{
+                $Centurio->addSiteBrandException($siteId,$brand,$DB);
             }
 
 

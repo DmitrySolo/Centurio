@@ -13,27 +13,22 @@ require_once('head.php');
 
 echo '<pre>';
 
-//
-//$sitesArr = $Centurio->getSites($DB);
-//
-//foreach($sitesArr as $site){
-//
-//    $siteWays = $Centurio->getSiteWays($site['id'],$DB);
-//
-//    foreach ($siteWays as $way){
-//
-//        $sitePrice =  $Centurio->getPrice($site['mainUrl'],$way['way'],$site['dom_elm']);
-//        $regularPrice = $Centurio->getRegularPriceById($way['position_id'],$DB);
-//        $res = round((int)$sitePrice  /   (int)$regularPrice, 2);
-//        $Centurio->saveResult($way['position_id'],$site['id'],$res,$DB);
-//    }
-//
-//    var_dump($res);
-//}
+
 $sitesArr = $Centurio->getSites($DB);
+
 foreach($sitesArr as $site){
-    echo $site['site_title'];
-    print_r($Centurio->publicResult($DB,$site['id'] ,2));
-   echo '<br>';
+
+    $siteWays = $Centurio->getSiteWays($site['id'],$DB);
+
+    foreach ($siteWays as $way){
+
+        $sitePrice =  $Centurio->getPrice($site['mainUrl'],$way['way'],$site['dom_elm']);
+        $regularPrice = $Centurio->getRegularPriceById($way['position_id'],$DB);
+        $res = round((int)$sitePrice  /   (int)$regularPrice, 2);
+        $Centurio->saveResult($way['position_id'],$site['id'],$res,$DB);
+    }
+
+    var_dump($res);
 }
+//
 

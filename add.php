@@ -199,7 +199,7 @@ if (!isset($_REQUEST['add'])) {
 
 <?php } else {
     echo '<pre> Происходит загрузка данных... <br>';
-    echo $_GET['assortment'];
+
     if (!isset($_SESSION['last_key'])) {
         $_SESSION['last_key'] = 0;
     }

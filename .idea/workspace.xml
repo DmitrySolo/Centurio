@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25066974-0935-465f-af77-d047763ec9cc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/img/zbs).jpg" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2e1a219b-c694-4fd1-8c56-e6f665e4c44f.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/2e1a219b-c694-4fd1-8c56-e6f665e4c44f.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Centurio.php" afterPath="$PROJECT_DIR$/Centurio.php" />
       <change beforePath="$PROJECT_DIR$/add.php" afterPath="$PROJECT_DIR$/add.php" />
+      <change beforePath="$PROJECT_DIR$/results.php" afterPath="$PROJECT_DIR$/results.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -128,28 +127,31 @@
       <file leaf-file-name="Centurio.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Centurio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="111" column="52" lean-forward="false" selection-start-line="111" selection-start-column="52" selection-end-line="111" selection-end-column="52" />
+            <state relative-caret-position="344">
+              <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding>
-                <marker date="1523794906182" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
-                <marker date="1523794906182" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
-                <marker date="1523794906182" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
-                <marker date="1523794906182" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
-                <marker date="1523794906182" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
-                <marker date="1523794906182" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
-                <marker date="1523794906182" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
-                <marker date="1523794906182" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
-                <marker date="1523794906182" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
-                <marker date="1523794906182" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
-                <marker date="1523794906182" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
-                <marker date="1523794906182" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
-                <marker date="1523794906182" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
-                <marker date="1523794906182" expanded="true" signature="2942:2958" ph="..." />
-                <marker date="1523794906182" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
-                <marker date="1523794906182" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
-                <marker date="1523794906182" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
-                <marker date="1523794906182" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
-                <marker date="1523794906182" expanded="true" signature="4104:4183" ph="INSERT INTO `results`... " />
+                <marker date="1523802735388" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
+                <marker date="1523802735388" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
+                <marker date="1523802735388" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
+                <marker date="1523802735388" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
+                <marker date="1523802735388" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
+                <marker date="1523802735388" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
+                <marker date="1523802735388" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
+                <marker date="1523802735388" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
+                <marker date="1523802735388" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
+                <marker date="1523802735388" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
+                <marker date="1523802735388" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
+                <marker date="1523802735388" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
+                <marker date="1523802735388" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
+                <marker date="1523802735388" expanded="true" signature="2942:2958" ph="..." />
+                <marker date="1523802735388" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
+                <marker date="1523802735388" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
+                <marker date="1523802735388" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
+                <marker date="1523802735388" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
+                <marker date="1523802735388" expanded="true" signature="4031:4043" ph="..." />
+                <marker date="1523802735388" expanded="true" signature="4184:4197" ph="..." />
+                <marker date="1523802735388" expanded="true" signature="4323:4333" ph="..." />
+                <marker date="1523802735388" expanded="true" signature="4566:4645" ph="INSERT INTO `results`... " />
               </folding>
             </state>
           </provider>
@@ -186,8 +188,8 @@
       <file leaf-file-name="results.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="357">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -196,11 +198,11 @@
       <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="306">
+              <caret line="203" column="16" lean-forward="false" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="16" />
               <folding>
-                <marker date="1523794942245" expanded="true" signature="7490:7578" ph="INSERT INTO SKU... " />
-                <marker date="1523794942245" expanded="true" signature="7823:7900" ph="INSERT INTO MAP... " />
+                <marker date="1523802735549" expanded="true" signature="7457:7545" ph="INSERT INTO SKU... " />
+                <marker date="1523802735549" expanded="true" signature="7790:7867" ph="INSERT INTO MAP... " />
               </folding>
             </state>
           </provider>
@@ -251,8 +253,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="95" />
-    <option name="y" value="175" />
+    <option name="x" value="130" />
+    <option name="y" value="237" />
     <option name="width" value="1775" />
     <option name="height" value="770" />
   </component>
@@ -331,12 +333,12 @@
       <workItem from="1522587057706" duration="13000" />
       <workItem from="1522662650778" duration="14267000" />
       <workItem from="1522748559349" duration="36087000" />
-      <workItem from="1523366455247" duration="57153000" />
+      <workItem from="1523366455247" duration="60334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110077000" />
+    <option name="totallyTimeSpent" value="113258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -350,7 +352,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.253125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -402,25 +404,28 @@
         <state relative-caret-position="1156">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
-            <marker date="1523794906182" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
-            <marker date="1523794906182" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
-            <marker date="1523794906182" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
-            <marker date="1523794906182" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
-            <marker date="1523794906182" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
-            <marker date="1523794906182" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
-            <marker date="1523794906182" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
-            <marker date="1523794906182" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
-            <marker date="1523794906182" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
-            <marker date="1523794906182" expanded="true" signature="2942:2958" ph="..." />
-            <marker date="1523794906182" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
-            <marker date="1523794906182" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
-            <marker date="1523794906182" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
-            <marker date="1523794906182" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
-            <marker date="1523794906182" expanded="true" signature="4104:4183" ph="INSERT INTO `results`... " />
+            <marker date="1523802735388" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
+            <marker date="1523802735388" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
+            <marker date="1523802735388" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
+            <marker date="1523802735388" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
+            <marker date="1523802735388" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
+            <marker date="1523802735388" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
+            <marker date="1523802735388" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
+            <marker date="1523802735388" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
+            <marker date="1523802735388" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
+            <marker date="1523802735388" expanded="true" signature="2942:2958" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
+            <marker date="1523802735388" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
+            <marker date="1523802735388" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
+            <marker date="1523802735388" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
+            <marker date="1523802735388" expanded="true" signature="4031:4043" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="4184:4197" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="4323:4333" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="4566:4645" ph="INSERT INTO `results`... " />
           </folding>
         </state>
       </provider>
@@ -445,8 +450,8 @@
         <state relative-caret-position="1309">
           <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
           <folding>
-            <marker date="1523794942245" expanded="true" signature="7490:7578" ph="INSERT INTO SKU... " />
-            <marker date="1523794942245" expanded="true" signature="7823:7900" ph="INSERT INTO MAP... " />
+            <marker date="1523802735549" expanded="true" signature="7457:7545" ph="INSERT INTO SKU... " />
+            <marker date="1523802735549" expanded="true" signature="7790:7867" ph="INSERT INTO MAP... " />
           </folding>
         </state>
       </provider>
@@ -515,25 +520,28 @@
         <state relative-caret-position="102">
           <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
-            <marker date="1523794906182" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
-            <marker date="1523794906182" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
-            <marker date="1523794906182" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
-            <marker date="1523794906182" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
-            <marker date="1523794906182" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
-            <marker date="1523794906182" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
-            <marker date="1523794906182" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
-            <marker date="1523794906182" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
-            <marker date="1523794906182" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
-            <marker date="1523794906182" expanded="true" signature="2942:2958" ph="..." />
-            <marker date="1523794906182" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
-            <marker date="1523794906182" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
-            <marker date="1523794906182" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
-            <marker date="1523794906182" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
-            <marker date="1523794906182" expanded="true" signature="4104:4183" ph="INSERT INTO `results`... " />
+            <marker date="1523802735388" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
+            <marker date="1523802735388" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
+            <marker date="1523802735388" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
+            <marker date="1523802735388" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
+            <marker date="1523802735388" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
+            <marker date="1523802735388" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
+            <marker date="1523802735388" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
+            <marker date="1523802735388" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
+            <marker date="1523802735388" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
+            <marker date="1523802735388" expanded="true" signature="2942:2958" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
+            <marker date="1523802735388" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
+            <marker date="1523802735388" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
+            <marker date="1523802735388" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
+            <marker date="1523802735388" expanded="true" signature="4031:4043" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="4184:4197" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="4323:4333" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="4566:4645" ph="INSERT INTO `results`... " />
           </folding>
         </state>
       </provider>
@@ -758,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -787,41 +787,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Centurio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="111" column="52" lean-forward="false" selection-start-line="111" selection-start-column="52" selection-end-line="111" selection-end-column="52" />
+        <state relative-caret-position="344">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
           <folding>
-            <marker date="1523794906182" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
-            <marker date="1523794906182" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
-            <marker date="1523794906182" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
-            <marker date="1523794906182" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
-            <marker date="1523794906182" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
-            <marker date="1523794906182" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
-            <marker date="1523794906182" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
-            <marker date="1523794906182" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
-            <marker date="1523794906182" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
-            <marker date="1523794906182" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
-            <marker date="1523794906182" expanded="true" signature="2942:2958" ph="..." />
-            <marker date="1523794906182" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
-            <marker date="1523794906182" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
-            <marker date="1523794906182" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
-            <marker date="1523794906182" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
-            <marker date="1523794906182" expanded="true" signature="4104:4183" ph="INSERT INTO `results`... " />
+            <marker date="1523802735388" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
+            <marker date="1523802735388" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
+            <marker date="1523802735388" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
+            <marker date="1523802735388" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
+            <marker date="1523802735388" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
+            <marker date="1523802735388" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
+            <marker date="1523802735388" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
+            <marker date="1523802735388" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
+            <marker date="1523802735388" expanded="true" signature="2780:3142" ph="SELECT EXIST... " />
+            <marker date="1523802735388" expanded="true" signature="2794:2828" ph="SELECT 1 FRO... table1" />
+            <marker date="1523802735388" expanded="true" signature="2942:2958" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
+            <marker date="1523802735388" expanded="true" signature="3352:3495" ph="SELECT * FRO... sku" />
+            <marker date="1523802735388" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
+            <marker date="1523802735388" expanded="true" signature="3352:3538" ph="SELECT * FRO... results" />
+            <marker date="1523802735388" expanded="true" signature="4031:4043" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="4184:4197" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="4323:4333" ph="..." />
+            <marker date="1523802735388" expanded="true" signature="4566:4645" ph="INSERT INTO `results`... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="306">
+          <caret line="203" column="16" lean-forward="false" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="16" />
           <folding>
-            <marker date="1523794942245" expanded="true" signature="7490:7578" ph="INSERT INTO SKU... " />
-            <marker date="1523794942245" expanded="true" signature="7823:7900" ph="INSERT INTO MAP... " />
+            <marker date="1523802735549" expanded="true" signature="7457:7545" ph="INSERT INTO SKU... " />
+            <marker date="1523802735549" expanded="true" signature="7790:7867" ph="INSERT INTO MAP... " />
           </folding>
         </state>
       </provider>

@@ -141,9 +141,22 @@ class Centurio
 
                 $summ += $itemArr['result'];
             }
-            $generalResult = $summ/$cnt;
+            $generalResult = $summ/$cnt;?>
 
-            echo ' '.$brandName.' -'.(100 - round($generalResult,3)*100).'%';
+            <?php
+            if($generalResult>=1){
+                $percentRes = '<span style=" color:green">OK</span>';
+            }else{
+                if((100 - round($generalResult,3)*100)<=5){
+                    $percentRes = '<span style=" color:yellow">'.(100 - round($generalResult,3)*100).'%'.'</span>';
+                }else{
+                    $percentRes = '<span style=" color:red">'.(100 - round($generalResult,3)*100).'%'.'</span>';
+                }
+            }
+
+            echo ' '.$brandName.' '.$percentRes;
+
+
         }
 
     }

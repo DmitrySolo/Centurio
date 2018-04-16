@@ -131,6 +131,12 @@ class Centurio
         $cnt = count($arr);
         if(!$cnt){
 
+            $rs = $DB->query("SELECT EXISTS(SELECT * FROM out_assortment WHERE site_id = $siteId AND brand_id = $brandId)")->fetch()[0];
+
+            if($rs){
+                return "<span style=\"color: darkviolet\">Нет в ассортименте</span>";
+            }
+
             return 'Непроверено';
 
         }else{
@@ -148,13 +154,13 @@ class Centurio
                 $percentRes = '<span style=" color:green">OK</span>';
             }else{
                 if((100 - round($generalResult,3)*100)<=5){
-                    $percentRes = '<span style=" color:yellow">'.(100 - round($generalResult,3)*100).'%'.'</span>';
+                    $percentRes = '<span style=" color:#ff7800">-'.(100 - round($generalResult,3)*100).'%'.'</span>';
                 }else{
-                    $percentRes = '<span style=" color:red">'.(100 - round($generalResult,3)*100).'%'.'</span>';
+                    $percentRes = '<span style=" color:red">-'.(100 - round($generalResult,3)*100).'%'.'</span>';
                 }
             }
 
-            echo ' '.$brandName.' '.$percentRes;
+            echo $percentRes;
 
 
         }

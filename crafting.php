@@ -5,7 +5,7 @@
  * Date: 12.04.2018
  * Time: 12:29
  */
-include_once('head.php');
+include_once('./includes/head.php');
 
 $stmt = $DB->prepare("INSERT INTO SITES (site_title, home_city_id, mainUrl, dom_elm) VALUES (:title, :home_city_id, :mainUrl, :dom_elm)");
 

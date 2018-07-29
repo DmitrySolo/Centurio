@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25066974-0935-465f-af77-d047763ec9cc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Centurio.php" afterPath="$PROJECT_DIR$/Centurio.php" />
-      <change beforePath="$PROJECT_DIR$/results.php" afterPath="$PROJECT_DIR$/results.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/bitrixlangsettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/OneSManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/ajax.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/cycleManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/globalTemplateData.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/start.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/results.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Centurio.php" afterPath="$PROJECT_DIR$/includes/Centurio.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DB.php" afterPath="$PROJECT_DIR$/includes/DB.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/head.php" afterPath="$PROJECT_DIR$/includes/head.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/options.php" afterPath="$PROJECT_DIR$/includes/options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Centurio.iml" afterPath="$PROJECT_DIR$/.idea/Centurio.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/2e1a219b-c694-4fd1-8c56-e6f665e4c44f.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/2e1a219b-c694-4fd1-8c56-e6f665e4c44f.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add.php" afterPath="$PROJECT_DIR$/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crafting.php" afterPath="$PROJECT_DIR$/crafting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.php" afterPath="$PROJECT_DIR$/results.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,210 +34,249 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" executionDataType="PHAR" phpInterpreterId="2c5ff292-773b-495f-bd32-0740ab5b87c6">
+  <component name="ComposerSettings" phpInterpreterId="2c5ff292-773b-495f-bd32-0740ab5b87c6">
     <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="centurio: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="centurio: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="brands: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="centurio: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="cities: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="centurio: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="map: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="centurio: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="out_assortment: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="centurio: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="results: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="centurio: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="sites: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="centurio@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="centurio: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="sku: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-    </expand>
-    <select />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="centurio@localhost [2]" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="centurio@localhost [2]" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="centurio" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="sku" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="centurio@localhost [2]" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="centurio" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="centurio@localhost [2]" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="centurio" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="cycles" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="centurio@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sites" pinned="false" current-in-tab="false">
-        <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sites">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map" pinned="false" current-in-tab="false">
-        <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.map">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Centurio.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Centurio.php">
+        <entry file="file://$PROJECT_DIR$/includes/Centurio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2567">
-              <caret line="156" column="62" lean-forward="false" selection-start-line="156" selection-start-column="62" selection-end-line="156" selection-end-column="62" />
+            <state relative-caret-position="657">
+              <caret line="126" column="31" lean-forward="false" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
               <folding>
-                <marker date="1523879600635" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
-                <marker date="1523879600635" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
-                <marker date="1523879600635" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
-                <marker date="1523879600635" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
-                <marker date="1523879600635" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
-                <marker date="1523879600635" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
-                <marker date="1523879600635" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
-                <marker date="1523879600635" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
-                <marker date="1523879600635" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
-                <marker date="1523879600635" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
-                <marker date="1523879600635" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
-                <marker date="1523879600635" expanded="true" signature="2942:2958" ph="..." />
-                <marker date="1523879600635" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
-                <marker date="1523879600635" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
-                <marker date="1523879600635" expanded="true" signature="3658:3749" ph="SELECT EXIST... " />
-                <marker date="1523879600635" expanded="true" signature="3672:3740" ph="SELECT * FRO... out_assortment" />
-                <marker date="1523879600635" expanded="true" signature="3825:3842" ph="..." />
-                <marker date="1523879600635" expanded="true" signature="4291:4303" ph="..." />
-                <marker date="1523879600635" expanded="true" signature="4444:4458" ph="..." />
-                <marker date="1523879600635" expanded="true" signature="4585:4595" ph="..." />
-                <marker date="1523879600635" expanded="true" signature="4810:4889" ph="INSERT INTO `out_assortment`... " />
+                <marker date="1532165158581" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
+                <marker date="1532165158581" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
+                <marker date="1532165158581" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
+                <marker date="1532165158581" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
+                <marker date="1532165158581" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
+                <marker date="1532165158581" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
+                <marker date="1532165158581" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
+                <marker date="1532165158581" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
+                <marker date="1532165158581" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
+                <marker date="1532165158581" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
+                <marker date="1532165158581" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
+                <marker date="1532165158581" expanded="true" signature="2942:2958" ph="..." />
+                <marker date="1532165158581" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
+                <marker date="1532165158581" expanded="true" signature="3356:3492" ph="SELECT * FRO... results" />
+                <marker date="1532165158581" expanded="true" signature="3356:3493" ph="SELECT * FRO... results" />
+                <marker date="1532165158581" expanded="true" signature="3622:3807" ph="SELECT * FRO... results" />
+                <marker date="1532165158581" expanded="true" signature="3920:4011" ph="SELECT EXIST... " />
+                <marker date="1532165158581" expanded="true" signature="3934:4002" ph="SELECT * FRO... out_assortment" />
+                <marker date="1532165158581" expanded="true" signature="4087:4104" ph="..." />
+                <marker date="1532165158581" expanded="true" signature="4553:4565" ph="..." />
+                <marker date="1532165158581" expanded="true" signature="4706:4720" ph="..." />
+                <marker date="1532165158581" expanded="true" signature="4847:4857" ph="..." />
+                <marker date="1532165158581" expanded="true" signature="5072:5151" ph="INSERT INTO `out_assortment`... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="results" pinned="false" current-in-tab="false">
-        <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results">
+      <file leaf-file-name="centurio.sites" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sites">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="results.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="centurio.results" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cycleManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/cycleManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+              <folding>
+                <marker date="1532870535878" expanded="true" signature="520:562" ph="SELECT MAX(c... sku" />
+                <marker date="1532870535878" expanded="true" signature="649:691" ph="SELECT MIN(c... sku" />
+                <marker date="1532870535878" expanded="true" signature="845:902" ph="SELECT dat_t... cycles" />
+                <marker date="1532870535878" expanded="true" signature="845:932" ph="SELECT date_... cycles" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="centurio.cycles" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.cycles">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneSManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/OneSManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="centurio.sku" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sku">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="results.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="129" column="41" lean-forward="false" selection-start-line="129" selection-start-column="41" selection-end-line="129" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="208" column="11" lean-forward="false" selection-start-line="208" selection-start-column="11" selection-end-line="208" selection-end-column="11" />
-              <folding>
-                <marker date="1523804009823" expanded="true" signature="7458:7546" ph="INSERT INTO SKU... " />
-                <marker date="1523804009823" expanded="true" signature="7791:7868" ph="INSERT INTO MAP... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="out_assortment" pinned="false" current-in-tab="false">
-        <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.out_assortment">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="options.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/options.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -236,13 +296,33 @@
       <list>
         <option value="$PROJECT_DIR$/libs/simple_html_dom.php" />
         <option value="$PROJECT_DIR$/options.php" />
-        <option value="$PROJECT_DIR$/head.php" />
-        <option value="$PROJECT_DIR$/crafting.php" />
         <option value="$PROJECT_DIR$/DB.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/add.php" />
+        <option value="$PROJECT_DIR$/ajax.php" />
+        <option value="$PROJECT_DIR$/functions.js" />
         <option value="$PROJECT_DIR$/Centurio.php" />
+        <option value="$PROJECT_DIR$/templates/menu.php" />
+        <option value="$PROJECT_DIR$/templates/index.php" />
+        <option value="$PROJECT_DIR$/templates/base.php" />
+        <option value="$PROJECT_DIR$/base.php" />
+        <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/head.php" />
+        <option value="$PROJECT_DIR$/base_template.php" />
+        <option value="$PROJECT_DIR$/templates/menu.html" />
+        <option value="$PROJECT_DIR$/menu.php" />
+        <option value="$PROJECT_DIR$/add.php" />
+        <option value="$PROJECT_DIR$/crafting.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/includes/ajax.php" />
+        <option value="$PROJECT_DIR$/includes/globalTemplateData.php" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/results.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/includes/head.php" />
+        <option value="dbtable:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sku" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/console.sql" />
         <option value="$PROJECT_DIR$/results.php" />
+        <option value="$PROJECT_DIR$/start.php" />
+        <option value="$PROJECT_DIR$/includes/cycleManager.php" />
       </list>
     </option>
   </component>
@@ -252,12 +332,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="83" />
-    <option name="y" value="49" />
-    <option name="width" value="1775" />
-    <option name="height" value="874" />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -275,33 +358,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="Centurio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Centurio" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Centurio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Centurio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Centurio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Centurio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="last_opened_file_path" value="C:/QUANT/kit" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="DataGrid.QuickDoc.View" value="transposed" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp2\htdocs\Centurio" />
       <recent name="C:\xampp2\htdocs\Centurio\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp2\htdocs\Centurio" />
+      <recent name="C:\xampp2\htdocs\Centurio\pages" />
+      <recent name="C:\xampp2\htdocs\Centurio\includes" />
       <recent name="C:\xampp2\htdocs\Centurio\libs" />
     </key>
   </component>
@@ -316,6 +427,75 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -335,39 +515,75 @@
       <workItem from="1522662650778" duration="14267000" />
       <workItem from="1522748559349" duration="36087000" />
       <workItem from="1523366455247" duration="61949000" />
-      <workItem from="1523869085745" duration="5994000" />
+      <workItem from="1523869085745" duration="14985000" />
+      <workItem from="1524476807816" duration="585000" />
+      <workItem from="1532007427743" duration="5238000" />
+      <workItem from="1532092366670" duration="1980000" />
+      <workItem from="1532335035109" duration="28060000" />
+      <workItem from="1532796287272" duration="3316000" />
+      <workItem from="1532864268580" duration="6461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120867000" />
+    <option name="totallyTimeSpent" value="175498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16950959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16684435" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06542056" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20353064" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30170575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06542056" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16897655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="89" y="263" width="1736" height="896" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06542056" sideWeight="0.5021322" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="89" y="263" width="1736" height="896" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20353064" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30170575" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06542056" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16897655" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -379,389 +595,110 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sku">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Centurio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <marker date="1523879600635" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
-            <marker date="1523879600635" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
-            <marker date="1523879600635" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
-            <marker date="1523879600635" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
-            <marker date="1523879600635" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
-            <marker date="1523879600635" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
-            <marker date="1523879600635" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
-            <marker date="1523879600635" expanded="true" signature="2942:2958" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
-            <marker date="1523879600635" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
-            <marker date="1523879600635" expanded="true" signature="3658:3749" ph="SELECT EXIST... " />
-            <marker date="1523879600635" expanded="true" signature="3672:3740" ph="SELECT * FRO... out_assortment" />
-            <marker date="1523879600635" expanded="true" signature="3825:3842" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4291:4303" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4444:4458" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4585:4595" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4810:4889" ph="INSERT INTO `out_assortment`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.brands">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
-          <folding>
-            <marker date="1523804009823" expanded="true" signature="7458:7546" ph="INSERT INTO SKU... " />
-            <marker date="1523804009823" expanded="true" signature="7791:7868" ph="INSERT INTO MAP... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.cities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sites">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.map">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sku">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/simple_html_dom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Centurio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <marker date="1523879600635" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
-            <marker date="1523879600635" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
-            <marker date="1523879600635" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
-            <marker date="1523879600635" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
-            <marker date="1523879600635" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
-            <marker date="1523879600635" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
-            <marker date="1523879600635" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
-            <marker date="1523879600635" expanded="true" signature="2942:2958" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
-            <marker date="1523879600635" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
-            <marker date="1523879600635" expanded="true" signature="3658:3749" ph="SELECT EXIST... " />
-            <marker date="1523879600635" expanded="true" signature="3672:3740" ph="SELECT * FRO... out_assortment" />
-            <marker date="1523879600635" expanded="true" signature="3825:3842" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4291:4303" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4444:4458" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4585:4595" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4810:4889" ph="INSERT INTO `out_assortment`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/apache/apache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/apc/apc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="20" lean-forward="false" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="159" column="17" lean-forward="false" selection-start-line="159" selection-start-column="17" selection-end-line="159" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/apache/apache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/apc/apc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="20" lean-forward="false" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="159" column="17" lean-forward="false" selection-start-line="159" selection-start-column="17" selection-end-line="159" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="159" column="17" lean-forward="false" selection-start-line="159" selection-start-column="17" selection-end-line="159" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="85" column="20" lean-forward="false" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/apc/apc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ddf9ec50-5ac0-4494-af77-9e2771b8a526/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/apache/apache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.resulrs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/simple_html_dom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crafting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.resulrs" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="978" column="56" lean-forward="false" selection-start-line="978" selection-start-column="56" selection-end-line="978" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://index:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results.results_id_uindex" />
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sku" />
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.cities" />
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.brands" />
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.out_stock" />
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sites" />
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.map" />
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.out_assortment" />
+    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results" />
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery/dist/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://index:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results.results_id_uindex">
+    <entry file="file://$PROJECT_DIR$/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="731">
+          <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sku">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.cities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.brands">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.out_stock">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB.php">
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilation_cache/84/845d2df7a5bcb76e852d090d132e7cfd8f88371239def1f301adff23c29b90bc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilation_cache/60/608e8380f81b0dc1c40f49c85ea1c7be05075be792bc44f40fc214a43e446ddb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sites">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.map">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.out_assortment">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/options.php">
+    <entry file="file://$PROJECT_DIR$/includes/options.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
@@ -769,59 +706,282 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/base_template.php" />
+    <entry file="file://$PROJECT_DIR$/includes/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crafting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <marker date="1532351923609" expanded="true" signature="148:261" ph="INSERT INTO SITES... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/2e1a219b-c694-4fd1-8c56-e6f665e4c44f.SCHEMA:centurio">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>2e1a219b-c694-4fd1-8c56-e6f665e4c44f.SCHEMA:centurio</OriginalElement>
+          <nodes>
+            <node x="" y="">2e1a219b-c694-4fd1-8c56-e6f665e4c44f.TABLE:centurio.brands</node>
+            <node x="" y="">2e1a219b-c694-4fd1-8c56-e6f665e4c44f.TABLE:centurio.out_assortment</node>
+            <node x="" y="">2e1a219b-c694-4fd1-8c56-e6f665e4c44f.TABLE:centurio.cities</node>
+            <node x="" y="">2e1a219b-c694-4fd1-8c56-e6f665e4c44f.TABLE:centurio.results</node>
+            <node x="" y="">2e1a219b-c694-4fd1-8c56-e6f665e4c44f.TABLE:centurio.sku</node>
+            <node x="" y="">2e1a219b-c694-4fd1-8c56-e6f665e4c44f.TABLE:centurio.map</node>
+            <node x="" y="">2e1a219b-c694-4fd1-8c56-e6f665e4c44f.TABLE:centurio.sites</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="248.0" y="222.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/globalTemplateData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="208" column="11" lean-forward="false" selection-start-line="208" selection-start-column="11" selection-end-line="208" selection-end-column="11" />
+        <state relative-caret-position="-1496">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <marker date="1523804009823" expanded="true" signature="7458:7546" ph="INSERT INTO SKU... " />
-            <marker date="1523804009823" expanded="true" signature="7791:7868" ph="INSERT INTO MAP... " />
+            <element signature="e#6#87#0#PHP" expanded="false" />
+            <marker date="1532351907336" expanded="true" signature="7469:7557" ph="INSERT INTO SKU... " />
+            <marker date="1532351907336" expanded="true" signature="7802:7879" ph="INSERT INTO MAP... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Centurio.php">
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2567">
-          <caret line="156" column="62" lean-forward="false" selection-start-line="156" selection-start-column="62" selection-end-line="156" selection-end-column="62" />
+        <state relative-caret-position="357">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.cities">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/Centurio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="126" column="31" lean-forward="false" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
           <folding>
-            <marker date="1523879600635" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
-            <marker date="1523879600635" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
-            <marker date="1523879600635" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
-            <marker date="1523879600635" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
-            <marker date="1523879600635" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
-            <marker date="1523879600635" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
-            <marker date="1523879600635" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
-            <marker date="1523879600635" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
-            <marker date="1523879600635" expanded="true" signature="2942:2958" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
-            <marker date="1523879600635" expanded="true" signature="3352:3537" ph="SELECT * FRO... results" />
-            <marker date="1523879600635" expanded="true" signature="3658:3749" ph="SELECT EXIST... " />
-            <marker date="1523879600635" expanded="true" signature="3672:3740" ph="SELECT * FRO... out_assortment" />
-            <marker date="1523879600635" expanded="true" signature="3825:3842" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4291:4303" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4444:4458" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4585:4595" ph="..." />
-            <marker date="1523879600635" expanded="true" signature="4810:4889" ph="INSERT INTO `out_assortment`... " />
+            <marker date="1532165158581" expanded="true" signature="1643:1675" ph="SELECT * FRO... sites" />
+            <marker date="1532165158581" expanded="true" signature="1791:1826" ph="SELECT way F... map" />
+            <marker date="1532165158581" expanded="true" signature="1791:1827" ph="SELECT way F... map" />
+            <marker date="1532165158581" expanded="true" signature="1791:1835" ph="SELECT way F... map" />
+            <marker date="1532165158581" expanded="true" signature="1791:1867" ph="SELECT way F... map" />
+            <marker date="1532165158581" expanded="true" signature="1957:2044" ph="INSERT INTO `results`... " />
+            <marker date="1532165158581" expanded="true" signature="2158:2202" ph="SELECT regul... sku" />
+            <marker date="1532165158581" expanded="true" signature="2361:2401" ph="SELECT name,... brands" />
+            <marker date="1532165158581" expanded="true" signature="2558:2671" ph="SELECT COUNT... sku" />
+            <marker date="1532165158581" expanded="true" signature="2780:2828" ph="SELECT EXIST... " />
+            <marker date="1532165158581" expanded="true" signature="2780:2871" ph="SELECT EXIST... " />
+            <marker date="1532165158581" expanded="true" signature="2942:2958" ph="..." />
+            <marker date="1532165158581" expanded="true" signature="3143:3223" ph="SELECT * FRO... sku" />
+            <marker date="1532165158581" expanded="true" signature="3356:3492" ph="SELECT * FRO... results" />
+            <marker date="1532165158581" expanded="true" signature="3356:3493" ph="SELECT * FRO... results" />
+            <marker date="1532165158581" expanded="true" signature="3622:3807" ph="SELECT * FRO... results" />
+            <marker date="1532165158581" expanded="true" signature="3920:4011" ph="SELECT EXIST... " />
+            <marker date="1532165158581" expanded="true" signature="3934:4002" ph="SELECT * FRO... out_assortment" />
+            <marker date="1532165158581" expanded="true" signature="4087:4104" ph="..." />
+            <marker date="1532165158581" expanded="true" signature="4553:4565" ph="..." />
+            <marker date="1532165158581" expanded="true" signature="4706:4720" ph="..." />
+            <marker date="1532165158581" expanded="true" signature="4847:4857" ph="..." />
+            <marker date="1532165158581" expanded="true" signature="5072:5151" ph="INSERT INTO `out_assortment`... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.results">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/cycleManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <marker date="1532870535878" expanded="true" signature="520:562" ph="SELECT MAX(c... sku" />
+            <marker date="1532870535878" expanded="true" signature="649:691" ph="SELECT MIN(c... sku" />
+            <marker date="1532870535878" expanded="true" signature="845:902" ph="SELECT dat_t... cycles" />
+            <marker date="1532870535878" expanded="true" signature="845:932" ph="SELECT date_... cycles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sites">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/OneSManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="129" column="41" lean-forward="false" selection-start-line="129" selection-start-column="41" selection-end-line="129" selection-end-column="41" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.cycles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/61468797/2e1a219b-c694-4fd1-8c56-e6f665e4c44f/centurio.sku">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

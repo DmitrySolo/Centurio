@@ -6,7 +6,7 @@
  * Time: 12:17
  */
 
-require_once('head.php');
+require_once('./includes/head.php');
 
 if (!isset($_REQUEST['add'])) {
 
